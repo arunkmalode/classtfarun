@@ -19,3 +19,4 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
 }
 #Adding a comment at the end of the file
 #Commit & Push#
+#comit & sync#
