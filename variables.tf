@@ -1,3 +1,4 @@
+/* Added this new line from Github Portal */
 # Define the resource group for the AKS cluster
 resource "azurerm_resource_group" "aks" {
   name     = "ArunAKS"
