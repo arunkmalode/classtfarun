@@ -18,3 +18,4 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
   }
 }
 #Adding a comment at the end of the file
+#This line has been added from github portal at line 21#
