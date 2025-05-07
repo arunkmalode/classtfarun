@@ -10,7 +10,7 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
   location            = azurerm_resource_group.aks.location
   resource_group_name = azurerm_resource_group.aks.name
   dns_prefix          = "arunclsu9090-dns"
-
+#
   default_node_pool {
     name       = "default"
     node_count = 1
