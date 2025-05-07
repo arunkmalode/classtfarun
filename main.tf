@@ -9,7 +9,7 @@ terraform {
 provider "azurerm" {
   features {}
 }
-
+#Test Committ
 # Define the resource group for the AKS cluster
 resource "azurerm_resource_group" "aks" {
   name     = "ArunAKS"
