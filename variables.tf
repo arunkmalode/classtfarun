@@ -17,4 +17,4 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
     vm_size    = "Standard_DS2_v2"  # Update to a valid VM SKU with >=2 cores and >=4GB RAM
   }
 }
-/*Adding a comment at the end of the file*/
+#Adding a comment at the end of the file
